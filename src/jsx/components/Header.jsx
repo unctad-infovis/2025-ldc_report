@@ -12,7 +12,7 @@ function App(props) {
     <div className="header_container">
       <div className="content_top">
         <h2>
-          <div className="name">Review of maritime transport</div>
+          <div className="name">Least developed countries report</div>
           <div className="year">
             20
             <span>25</span>
@@ -31,6 +31,7 @@ function App(props) {
           <button type="button" className="video" onClick={() => scrollTo('.anchor_videos', 'Videos')}>Videos</button>
           {/* <button type="button" className="podcast" onClick={() => scrollTo('.anchor_podcasts', 'Podcasts')}>Podcast</button> */}
           <button type="button" className="press" onClick={() => scrollTo('.anchor_press', 'Press')}>Press</button>
+          <button type="button" className="press" onClick={() => scrollTo('.anchor_ldc', 'LDC')}>What are the LDCs</button>
         </div>
         <div className="chapters_navigation_container">
           {
