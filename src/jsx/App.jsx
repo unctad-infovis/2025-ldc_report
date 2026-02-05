@@ -244,7 +244,7 @@ function App() {
             </div>
           </div>
         </div>
-        <ScrollingText texts={['']} chapter_text="Chapter 2" />
+        <ScrollingText texts={['What has the shift toward services meant for jobs and productivity in LDCs?']} chapter_text="Chapter 2" />
         <div className="content_container chapter_header_2" ref={chapter2Ref}>
           <div className="text_container">
             <ChapterHeader
@@ -298,7 +298,7 @@ function App() {
               <p>Upgrading towards higher value-added services is constrained by weak digital ecosystems, limited innovation capacity and skills gaps. Many LDCs face a mismatch between workforce skills and the demands of digitally driven services, such as data analysis, coding and cyber security.</p>
               <p>Digital divides also remain entrenched.</p>
               <ul>
-                <li>DWomen are 42% less likely than men to use mobile internet.</li>
+                <li>Women are 42% less likely than men to use mobile internet.</li>
                 <li>Rural populations are 50% less likely than urban ones.</li>
               </ul>
               <p>Country examples show how digital technologies can lower barriers to services upgrading.</p>
@@ -370,7 +370,7 @@ function App() {
           <div className="text_container">
             <ChapterHeader
               chapter_number="4"
-              subtitle="Ports are under increased strain as ship rerouting and port call reshuffling disrupt schedules. Between December 2023 and March 2024, average port waiting times climbed 23% to 6.4 hours in developed economies and 7% to 10.9 hours in developing ones."
+              subtitle=""
               title={chapterTitles[3]}
             />
             <div className="download_buttons_container">
