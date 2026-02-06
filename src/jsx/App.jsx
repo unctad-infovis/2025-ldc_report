@@ -222,7 +222,7 @@ function App() {
               title={chapterTitles[0]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/rmt2025ch1_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 1" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025ch1_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 1" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter1.jpg" /></div></div>
             <div className="text_content">
@@ -253,7 +253,7 @@ function App() {
               title={chapterTitles[1]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/rmt2025ch2_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 2" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025ch2_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 2" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter2.jpg" /></div></div>
             <div className="text_content">
@@ -320,7 +320,7 @@ function App() {
               title={chapterTitles[2]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/rmt2025ch3_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 3" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025ch3_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 3" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter3.jpg" /></div></div>
             <div className="text_content">
@@ -374,7 +374,7 @@ function App() {
               title={chapterTitles[3]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/rmt2025ch4_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025ch4_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter4.jpg" /></div></div>
             <div className="text_content">
@@ -412,7 +412,7 @@ function App() {
               title={chapterTitles[4]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/rmt2025ch5_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025ch5_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter5.jpg" /></div></div>
             <div className="text_content">
