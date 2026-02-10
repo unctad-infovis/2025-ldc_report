@@ -12,7 +12,7 @@ function App(props) {
     <div className="header_container">
       <div className="content_top">
         <h2>
-          <div className="name">Least developed countries report</div>
+          <div className="name">The least developed countries report</div>
           <div className="year">
             20
             <span>25</span>
@@ -22,7 +22,7 @@ function App(props) {
       <div className="between" />
       <div className="content_bottom">
         <h2>
-          Staying the course in turbulent waters
+          Are services the new path to structural transformation?
           <div className="share_wrapper"><ShareContainer url={window.location.href} /></div>
         </h2>
         <div className="download_buttons_container">
@@ -46,7 +46,7 @@ function App(props) {
                       .
                     </div>
                     {
-                      i < 5 && <a href={`https://unctad.org/system/files/official-document/rmt2025ch${i + 1}_en.pdf`} target="_blank" onClick={(event) => downloadDocument(event)} className="chapter_download_button" aria-label={`Download Chapter ${i + 1}`} rel="noreferrer" />
+                      i < 5 && <a href={`https://unctad.org/system/files/official-document/ldc2025chp${i + 1}_en.pdf`} target="_blank" onClick={(event) => downloadDocument(event)} className="chapter_download_button" aria-label={`Download Chapter ${i + 1}`} rel="noreferrer" />
                     }
                   </div>
                 </div>

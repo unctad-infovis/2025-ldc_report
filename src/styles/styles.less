@@ -92,19 +92,19 @@
             font-weight: 700
           }
           a {
+            border-bottom: 1px solid #000;
             color: #000;
-              text-decoration: none;
-              border-bottom: 1px solid #000;
+            text-decoration: none;
             &:hover {
-              text-decoration: none;
               border-bottom: 0;
+              text-decoration: none;
             }
           }
         }
         p.large {
           font-size: 30px;
           font-weight: 800;
-          line-height: 34px;
+          line-height: 36px;
           margin-bottom: 30px;
           @media all and (max-width: 576px) {
             font-size: 24px;
@@ -112,8 +112,8 @@
           }
         }
         ol {
-          padding: 0;
           counter-reset: section;
+          padding: 0;
           li {
             align-items: flex-start;
             display: flex;
@@ -186,7 +186,7 @@
           opacity: 0;
           &.visible {
             opacity: 1;
-            transition: opacity 1.5s ease-in-out;
+            transition: opacity 1.0s ease-in-out;
           }
         }
         blockquote {

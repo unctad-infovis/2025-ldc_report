@@ -6,48 +6,60 @@ function Footer() {
     <div className="app" id="app_footer">
       <div className="footer_container">
         <h2>What do you want to do next?</h2>
-        <div className="footer_elements hidden">
+        <div className="footer_elements">
           <div className="footer_element footer_element_1">
-            <div className="footer_content anchor_videos hidden" id="anchor_videos">
+            <div className="footer_content anchor_videos" id="anchor_videos">
               <h3>Watch the videos</h3>
               <div className="iframe_container youtube_iframe">
                 <iframe
-                  src="https://player.vimeo.com/video/1116100978?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=584799"
+                  src="https://player.vimeo.com/video/1163335587?h=6f1dbf9ba2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                   frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                  title="UNCTAD’s Review of Maritime Transport 2025 – International investment in the digital economy"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{
+                    position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'
+                  }}
+                  title="Least Developed Countries Report 2025"
                 />
                 <script src="https://player.vimeo.com/api/player.js" />
               </div>
+              <br />
+              <h4>Download the report video</h4>
               <ul>
                 <li>
-                  <a href="https://vimeo.com/1121191483" target="_blank" rel="noreferrer">Français</a>
+                  <a href="https://vimeo.com/1163335587" target="_blank" rel="noreferrer">English</a>
                   {', '}
-                  <a href="https://vimeo.com/1120860563" target="_blank" rel="noreferrer">Español</a>
+                  <a href="https://vimeo.com/1163711599/e117baf5e5" target="_blank" rel="noreferrer">Français</a>
                   {', '}
-                  <a href="https://vimeo.com/1123267095" target="_blank" rel="noreferrer">العربية</a>
-                  {', '}
-                  <a href="https://vimeo.com/1122795449" target="_blank" rel="noreferrer">简体中文</a>
-                  {', '}
-                  <a href="https://vimeo.com/1123265387" target="_blank" rel="noreferrer">Русский</a>
-                  {', '}
-                  <a href="https://vimeo.com/1122840972" target="_blank" rel="noreferrer">Português</a>
-                  {', '}
-                  <a href="https://vimeo.com/1123266202" target="_blank" rel="noreferrer">Kiswahili</a>
+                  <a href="https://vimeo.com/1163657367/ac340e5146" target="_blank" rel="noreferrer">Español</a>
+                  <div className="hidden">
+                    {', '}
+                    <a href="https://vimeo.com/1123267095" target="_blank" rel="noreferrer">العربية</a>
+                    {', '}
+                    <a href="https://vimeo.com/1122795449" target="_blank" rel="noreferrer">简体中文</a>
+                    {', '}
+                    <a href="https://vimeo.com/1123265387" target="_blank" rel="noreferrer">Русский</a>
+                    {', '}
+                    <a href="https://vimeo.com/1122840972" target="_blank" rel="noreferrer">Português</a>
+                    {', '}
+                    <a href="https://vimeo.com/1123266202" target="_blank" rel="noreferrer">Kiswahili</a>
+                  </div>
                 </li>
               </ul>
-              <br />
-              <h4>Watch the press conference</h4>
-              <div className="iframe_container youtube_iframe">
-                <iframe
-                  src="https://player.vimeo.com/video/1121582942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                  title="UNCTAD’s Review of Maritime Transport Press Release 2025"
-                />
-                <script src="https://player.vimeo.com/api/player.js" />
+              <div className="hidden">
+                <br />
+                <h4>Watch the press conference</h4>
+                <div className="iframe_container youtube_iframe">
+                  <iframe
+                    src="https://player.vimeo.com/video/1121582942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameBorder="0"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                    title="UNCTAD’s Review of Maritime Transport Press Release 2025"
+                  />
+                  <script src="https://player.vimeo.com/api/player.js" />
+                </div>
               </div>
-              <div>
+              <div className="hidden">
                 <h4>Media assets</h4>
                 <ul>
                   <li>

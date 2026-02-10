@@ -190,7 +190,7 @@ function App() {
             <h3>Services are playing an increasingly important role in the global economy, including in least developed countries (LDCs). This shift, fuelled by digital transformation, is promoted as a new pathway to prosperity.</h3>
             <p>From tourism and transport to finance and telecommunications, services now account for around half of economic output in the average LDC.</p>
             <p>Yet this expansion has not yet delivered on its promises. Most service jobs in LDCs are low-skill and they remain sidelined from the most dynamic segments. In digitally deliverable services – the fastest-growing segment – LDCs account for just 0.16% of global exports.</p>
-            <p>This report examines whether services can become a driver of structural transformation — and under what conditions. It finds that services are not a shortcut to development.</p>
+            <p>This report examines whether services can become a driver of structural transformation – and under what conditions. It finds that services are not a shortcut to development.</p>
             <p>They contribute to transformation only when tightly linked to manufacturing, agriculture and other productive sectors and supported by investment in digital skills and infrastructure. This also requires active trade and investment policies, regional cooperation and stronger multilateral support aligned with LDCs’ supply capacities.</p>
             <blockquote>
               <div className="quote">Services can reinforce industrialization, expand trade and enhance competitiveness, but only when supported by coherent national strategies and an enabling global environment. Without both, the same forces that create opportunity will deepen exclusion.</div>
@@ -222,7 +222,7 @@ function App() {
               title={chapterTitles[0]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/ldc2025ch1_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 1" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025chp1_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 1" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter1.jpg" /></div></div>
             <div className="text_content">
@@ -253,7 +253,7 @@ function App() {
               title={chapterTitles[1]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/ldc2025ch2_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 2" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025chp2_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 2" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter2.jpg" /></div></div>
             <div className="text_content">
@@ -320,7 +320,7 @@ function App() {
               title={chapterTitles[2]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/ldc2025ch3_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 3" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025chp3_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 3" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter3.jpg" /></div></div>
             <div className="text_content">
@@ -354,7 +354,7 @@ function App() {
               <DwChartContainer chart_id="VK941" title="Least developed countries remain on the sidelines of fast-growing digitally deliverable services" />
             </div>
             <div className="text_content">
-              <p>Moreover, digitally deliverable exports are concentrated in a handful of countries, led by Bangladesh, Ethiopia, Senegal, Nepal, Cambodia and Uganda, and in narrow categories such as telecommunications, computer services and professional consulting.</p>
+              <p>Moreover, digitally deliverable services exports are concentrated in a handful of countries, led by Bangladesh, Ethiopia, Senegal, Nepal, Cambodia and Uganda, and in narrow categories such as telecommunications, computer services and professional consulting.</p>
               <p>Barriers operate both internationally and domestically.</p>
               <ul>
                 <li>Abroad, restrictive visa regimes and the non-recognition of qualifications limit the movement of service suppliers from LDCs.</li>
@@ -374,7 +374,7 @@ function App() {
               title={chapterTitles[3]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/ldc2025ch4_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025chp4_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter4.jpg" /></div></div>
             <div className="text_content">
@@ -412,7 +412,7 @@ function App() {
               title={chapterTitles[4]}
             />
             <div className="download_buttons_container">
-              <a href="https://unctad.org/system/files/official-document/ldc2025ch5_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
+              <a href="https://unctad.org/system/files/official-document/ldc2025chp5_en.pdf" target="_blank" onClick={(event) => downloadDocument(event)} type="button" className="chapter_download" aria-label="Download Chapter 4" rel="noreferrer">Download</a>
             </div>
             <div className="media_container"><div className="image_container"><ParallaxImage src="assets/img/2025ldc_chapter5.jpg" /></div></div>
             <div className="text_content">
