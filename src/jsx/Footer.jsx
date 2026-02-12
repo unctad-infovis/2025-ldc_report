@@ -23,8 +23,6 @@ function Footer() {
                 />
                 <script src="https://player.vimeo.com/api/player.js" />
               </div>
-              <br />
-              <h4>Download the report video</h4>
               <ul>
                 <li>
                   <a href="https://vimeo.com/1163335587" target="_blank" rel="noreferrer">English</a>
@@ -46,30 +44,32 @@ function Footer() {
                   </div>
                 </li>
               </ul>
-              <div className="hidden">
-                <br />
-                <h4>Watch the press conference</h4>
-                <div className="iframe_container youtube_iframe">
-                  <iframe
-                    src="https://player.vimeo.com/video/1121582942?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    frameBorder="0"
-                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                    title="UNCTAD’s Review of Maritime Transport Press Release 2025"
-                  />
-                  <script src="https://player.vimeo.com/api/player.js" />
-                </div>
+              <br />
+              <h4>Watch the press conference</h4>
+              <div className="iframe_container youtube_iframe">
+                <iframe
+                  src="https://player.vimeo.com/video/1163899921?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                  title="UNCTAD’s Review of Maritime Transport Press Release 2025"
+                />
+                <script src="https://player.vimeo.com/api/player.js" />
               </div>
-              <div className="hidden">
-                <h4>Media assets</h4>
-                <ul>
-                  <li>
-                    <a href="https://www.flickr.com/photos/unctad/albums/72177720329226625/" target="_blank" rel="noreferrer">Photos</a>
-                  </li>
-                  <li>
-                    <a href="https://trello.com/b/5Rj98nG2/" target="_blank" rel="noreferrer">Digital assets</a>
-                  </li>
-                </ul>
-              </div>
+              <ul>
+                <li>
+                  <a href="https://vimeo.com/1163899921" target="_blank" rel="noreferrer">English</a>
+                </li>
+              </ul>
+              <br />
+              <h4>Media assets</h4>
+              <ul>
+                <li>
+                  <a href="https://www.flickr.com/photos/unctad/albums/72177720331932485" target="_blank" rel="noreferrer">Photos</a>
+                </li>
+                <li className="hidden">
+                  <a href="https://trello.com/b/5Rj98nG2/" target="_blank" rel="noreferrer">Digital assets</a>
+                </li>
+              </ul>
             </div>
             {/*       <div className="footer_content anchor_podcasts" id="anchor_podcasts">
               <h3>Podcast</h3>
