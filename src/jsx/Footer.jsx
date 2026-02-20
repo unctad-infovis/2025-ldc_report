@@ -40,6 +40,10 @@ function Footer() {
                   <a href="https://vimeo.com/1164001768/ac9b490d7f" target="_blank" rel="noreferrer">Português</a>
                   {', '}
                   <a href="https://vimeo.com/1163991315/058ce6c278" target="_blank" rel="noreferrer">Kiswahili</a>
+                  {', '}
+                  <a href="https://vimeo.com/1164272800/0dd80cac7a" target="_blank" rel="noreferrer">Hindi हिंदी</a>
+                  {', '}
+                  <a href="https://vimeo.com/1165302913/38c0229f11" target="_blank" rel="noreferrer">Urdu اردو</a>
                 </li>
               </ul>
               <br />
